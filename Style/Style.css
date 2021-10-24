@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboro',sans-serif;
+    overflow-y: hidden;
+    background:linear-gradient(rgb(187, 204, 252), blue);
+}
+header{
+    margin-bottom: 10px;
+    padding: 2rem;
+    text-align: center;
+}
+h4,a{
+    clear: black;
+    text-decoration: none;
+    margin-top: 5px;
+}
+.funcionfactorial{
+    padding: 2rem;
+    text-align: center;
+}
+.resultado{
+    font-size: 25px;
+    color: white;
+    height: 100vh;
+    max-height: 47vh;
+    margin-top: 10px;
+    padding: 2rem; 
+    overflow-y: auto;
+}
+
+/* SCROLL FACTORIALES */
+.resultado::-webkit-scrollbar {
+    background-color:rgba(0, 0, 0,0.1);
+    width: 5px;
+    border-radius: 20px;
+}
+.resultado::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Input y boton */
+input[type=number]{
+    padding-left: 20px;
+    width:auto;
+    height: 30px;
+}
+input[type=submit]{
+    background-color:white;
+    border: 2px solid rgba(17, 17, 114, 0.473);
+    color: black;
+    padding: 7px 22px;
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 1px 1px;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    transform: scale(.9);
+}
+
